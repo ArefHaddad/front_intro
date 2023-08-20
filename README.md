@@ -23,12 +23,17 @@ We can <b>use</b> html code in md language
 
 ---
 
-│Day│Month│Year│
-│---│-----│----│
-│17│8│2023│
+|Day|Month|Year|
+|---|-----|----|
+|17|8|2023|
 
 ---
 
 - [X] Introduction to Programming
 - [] Front End
 - [] Back End
+
+|Class # |Title|Link|
+|-----|--------|----|
+|1|     |[Click Here](./Classes/Class1.md)    |
+|2 |  |   |

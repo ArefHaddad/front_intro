@@ -1,15 +1,9 @@
-# front_intro
-We will learn about HTML, CSS and JS
+# Front-Intro
 
-Hi from SDK
+**We will learn about HTML, CSS and JS.**
 
-### Welcome to my first MD page
 
-**Programming** is my _passion_
-
-We can <b>use</b> html code in md language
-
-[Got to Google](https//www.google.com/)
+\- _Programming is my passion_
 
 
 [comment]: <> (This is a comment)
@@ -21,11 +15,7 @@ We can <b>use</b> html code in md language
 > 
 > *\- Steve Jobs, co-founder and CEO of Apple Inc. (1955 - 2011)*
 
----
 
-|Day|Month|Year|
-|---|-----|----|
-|17|8|2023|
 
 ---
 
@@ -33,7 +23,13 @@ We can <b>use</b> html code in md language
 - [] Front End
 - [] Back End
 
+---
+
+The following table contains the classes and links containing a summary of the most important points of each class.
+
 |Class # |Title|Link|
 |-----|--------|----|
-|1|     |[Click Here](./Classes/Class1.md)    |
-|2 |  |   |
+|1|HTML and Styles     |[Click Here](./Classes/Class1.md)    |
+|2 |Markdown and Styles & Tables in HTML  |[Click Here](./Classes/Class2.md)   |
+|3 |  |[Click Here](./Classes/Class3.md)   |
+|4 |  |   |

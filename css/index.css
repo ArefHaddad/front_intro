@@ -8,3 +8,9 @@ body {
     background-color: blue;
     text-align: center;
 }
+
+button {
+    margin-right: 3cm;
+    margin-left: 3cm;
+    border-radius: 8px;
+}

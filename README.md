@@ -31,5 +31,5 @@ The following table contains the classes and links containing a summary of the m
 |-----|--------|----|
 |1|HTML and Styles     |[Click Here](./Classes/Class1.md)    |
 |2 |Markdown and Styles & Tables in HTML  |[Click Here](./Classes/Class2.md)   |
-|3 |  |[Click Here](./Classes/Class3.md)   |
+|3 |Figma and Prototype  |[Click Here](./Classes/Class3.md)   |
 |4 |  |   |

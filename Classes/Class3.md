@@ -1,4 +1,4 @@
-# 
+# Figma and Prototype
 
 - Summary:
 
@@ -6,7 +6,6 @@
     - figma , adobe xd
     - id and class
     - tag*number
-    -
 
 
 

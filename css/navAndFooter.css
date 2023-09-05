@@ -69,3 +69,41 @@ button {
 .active {
     background-color: blue;
 }
+
+/*add style for mobile view for class navRightMenu */
+@media only screen and (max-width: 400px){
+    .navleftmenu{
+        float: none;
+        margin: 0px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    button{
+        margin: 0px 6px;
+    }
+    #logo{
+        display: block;
+        width: 70px;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        padding: 10px;
+    }
+    
+    #foter {
+        display: flex;
+        justify-content: center;
+    }
+
+    #foter .buttonlink {
+        justify-content: left;
+    }
+
+    .footerbutton {
+        margin-left: 0px;
+        justify-content: center;
+    
+    }
+    /*task about how to center the navmenu*/
+}

@@ -1,24 +1,15 @@
-#logo {
-    /* background-color: gray; */
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 200px;
-    width: 50px;
-    height: 50px;
-}
+/* 
 
 
 body, h1 {
     margin: 0px;
 
-}/* h1 for delete the empty area */
+}// h1 for delete the empty area
 
 #navBar {
     background-color: gray;
-    /* text-align: center; */
-    /* text-align: right; */
+    // text-align: center; 
+    // text-align: right;
 }
 
 button {
@@ -70,7 +61,7 @@ button {
     background-color: blue;
 }
 
-/*add style for mobile view for class navRightMenu */
+//add style for mobile view for class navRightMenu 
 @media only screen and (max-width: 400px){
     .navleftmenu{
         float: none;
@@ -103,7 +94,140 @@ button {
     .footerbutton {
         margin-left: 0px;
         justify-content: center;
+        width: 90%;
     
     }
-    /*task about how to center the navmenu*/
+    //task about how to center the navmenu
+} */
+
+* {
+    background-color: ;
 }
+
+.profilepic{
+    height: 100px;
+    width: 50px;
+    border-radius: 15px;
+}
+
+button {
+    text-align: center;
+}
+.logoo {
+    width: 50px;
+    height: 50px;
+}
+.gridItem1 {
+    grid-area: logo;
+    background-color: white;
+    padding: 50px;
+}
+.test{
+    margin-left: 100px;
+}
+.gridItem2 {
+    grid-area: nav;
+    background-color: aquamarine;
+    padding: 50px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+        /* align-items: center left; */
+    padding-top: 50px;
+    }
+
+.gridItem3 {
+    grid-area: left;
+    background-color: white;
+    padding: 50px;
+}
+
+.project1{
+    grid-area: one;
+    background-color: white;
+    padding: 50px;
+
+}
+.project2{
+    grid-area: two;
+    background-color: white;
+    padding: 50px;
+}
+.project3{
+    grid-area: three;
+    background-color: white;
+    padding: 50px;
+}
+.project4{
+    grid-area: four;
+    background-color: white;
+    padding: 50px;
+}
+.project5{
+    grid-area: five;
+    background-color: white;
+    padding: 50px;
+}
+.project6{
+    grid-area: six;
+    background-color: white;
+    padding: 50px;
+}
+
+.gridItem4 {
+    grid-area: main;    
+    padding: 50px;
+    display: grid;
+    grid-template-areas: "one two three"
+                         "four five six";
+
+    background-color: white;
+    grid-gap: 5px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+}
+
+.gridItem5 {
+    grid-area: right;
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+.gridItem6 {
+    grid-area: footer;
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+
+#layout {
+    display: grid;
+    grid-template-areas: "logo nav nav nav nav nav"
+                         "left left main main main right"
+                         "left left main main main right"
+                         "footer footer footer footer footer right";
+    background-color: black;
+    grid-gap: 10px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 10px;
+
+}
+
+.projectimgs {
+    width: 100px;
+    height: 100px;
+}
+
+
+#result {
+    font-weight: bold;
+}
+

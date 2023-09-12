@@ -6,35 +6,83 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="./css/navAndFooter.css">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="icon" href="./media/R.png" type="image">
+    <link rel="icon" href="./media/Logo.png" type="image">
 </head>
 <body>
-    <!-- navbar -->
-    <div id="navBar">
-        <a href="./index.html"><img id="logo" src="./media/R.png" alt="this is logo"></a>
-    <div class="navleftmenu">
-        <a class="buttonlink" href="./index.html"><button class="menubutton active">Home</button></a>
-        <a class="buttonlink" href="./pages/contact.html"><button class="menubutton">Contact</button></a>
-        <a class="buttonlink" href="./pages/about.html"><button class="menubutton">About</button></a>
-        <a class="buttonlink" href="./pages/news.html"><button class="menubutton">News</button></a>
-    </div>
-
-    </div>
-    <!-- end navbar -->
-    <!-- content -->
-    <div>
-        <p>Home Page</p>
-    </div>
-    <!-- end content -->
-    <!-- footer -->
-    <div id="foter">
-        <div>
-            <a class="buttonlink" href="./index.html"><button class="footerbutton active">Home</button></a>
-            <a class="buttonlink" href="./pages/contact.html"><button class="footerbutton">Contact</button></a>
-            <a class="buttonlink" href="./pages/about.html"><button class="footerbutton">About</button></a>
-            <a class="buttonlink" href="./pages/news.html"><button class="footerbutton">News</button></a>
+    <div id="layout">
+        <div class="gridItem1"><img class="logoo" src="./media/Logo.png" alt="LOGO"></div>
+        <div class="gridItem2">
+            <a class="test" href="./index.html"><button>Home</button></a>
+            <a class="test" href="./pages/about.html"><button>About</button></a>
+            <a class="test" href="./pages/news.html"><button>News</button></a>
+            <a class="test" href="./pages/contact.html"><button>Contact</button></a>
+        </div>
+        <div class="gridItem3">
+            <img class="profilepic" src="./media/profile.jpeg" alt="Profile">
+            <p>Hello!</p>
+            <br>
+            
+            <div>
+                <form class="userInput" action="">
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" class="input">
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" class="input">
+                    <input type="submit" value="Submit ">
+                </form>
+            </div>
+            <br>
+            <div style="margin-left: 20%;">
+                <!-- take 2 input as a number then + them  -->
+                <form class="sumation" action="">
+                    <input type="number" name="num1" id="num1" placeholder="Enter Your First Number" class="input">
+                    <p>+</p>
+                    <input type="number" name="num2" id="num2" placeholder="Enter Your Second Number" class="input">
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit ">
+                </form>
+                <p class="result">??</p>
+            </div>
+        </div>
+        <div class="gridItem4">
+            <div class="project1">
+                <img class="projectimgs" src="/media/Project1.jpg" alt="project1">
+                <p>1</p>
+            </div>
+            <div class="project2">
+                <img class="projectimgs" src="/media/Project2.jpg" alt="project2">
+                <p>2</p>
+            </div>
+            <div class="project3">
+                <img class="projectimgs" src="/media/Project3.jpg" alt="project3">
+                <p>3</p>
+            </div>
+            <div class="project4">
+                <img class="projectimgs" src="/media/Project4.jpg" alt="project4">
+                <p>4</p>
+            </div>
+            <div class="project5">
+                <img class="projectimgs" src="/media/Project5.jpg" alt="project5">
+                <p>5</p>
+            </div>
+            <div class="project6">
+                <img class="projectimgs" src="/media/Project6.jpg" alt="project6">
+                <p>6</p>
+            </div>
+        </div>
+        <div class="gridItem5">
+            <h1>Number Checker</h1>
+            <label for="numberInput">Enter a number:</label>
+            <input type="number" id="numberInput">
+            <button id="checkButton">Check</button>
+            <p id="result"></p>
+        </div>
+        <div class="gridItem6">
+            <a class="test" href="./index.html"><button>Home</button></a>
+            <a class="test" href="./pages/about.html"><button>About</button></a>
+            <a class="test" href="./pages/news.html"><button>News</button></a>
+            <a class="test" href="./pages/contact.html"><button>Contact</button></a>
         </div>
     </div>
-    <!-- end footer -->
+    <script src="/js/index.js"></script>
 </body>
 </html>

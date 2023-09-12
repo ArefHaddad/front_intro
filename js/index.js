@@ -91,9 +91,9 @@ function checkNumber() {
         }
 
         if (isEvenResult) {
-            resultElement.textContent = "Number is even. ";
+            resultElement.textContent += "Number is even. ";
         } else {
-            resultElement.textContent = "Number is odd.";
+            resultElement.textContent += "Number is odd.";
         }
     }
 
